@@ -36,7 +36,7 @@ public class DictionaryServant extends UnicastRemoteObject implements Dictionary
 
 	public void writeFile() throws java.rmi.RemoteException {
 		try{
-			FileWriter fw = new FileWriter("dicionario.txt");
+			FileWriter fw = new FileWriter("dict.txt");
 			PrintWriter pw = new PrintWriter(fw);
 			for (String palavra : dict.keySet()) {
 				pw.println(palavra + " - " + dict.get(palavra));
