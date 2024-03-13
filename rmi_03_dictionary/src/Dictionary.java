@@ -9,7 +9,7 @@ public interface Dictionary extends java.rmi.Remote {
 
 	public List<String[]> list() throws java.rmi.RemoteException;
 
-	public void escreverArquivo() throws java.rmi.RemoteException;
+	public void writeFile() throws java.rmi.RemoteException;
 
-	public void lerArquivo() throws java.rmi.RemoteException;
+	public void readFile() throws java.rmi.RemoteException;
 }

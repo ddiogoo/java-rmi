@@ -52,10 +52,10 @@ public class DictionaryClient {
 						}
 						break;
 					case 5:
-						c.escreverArquivo(); // Escreve o dicionário em um arquivo
+						c.writeFile(); // Escreve o dicionário em um arquivo
 						break;
 					case 6:
-						c.lerArquivo(); // Lê o dicionário de um arquivo
+						c.readFile(); // Lê o dicionário de um arquivo
 						break;
 					case 7:
 						System.out.println("Saindo...");
